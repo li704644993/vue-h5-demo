@@ -1,2 +1,34 @@
-# vue-h5-demo
-一个使用vue框架的h5页面demo，使用vant-UI框架，vh、vw解决适配问题，并进行了简单的工程化。
+# common-h5-demo
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Run your tests
+```
+npm run test
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Run your unit tests
+```
+npm run test:unit
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
