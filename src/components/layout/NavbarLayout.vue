@@ -18,12 +18,18 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang='scss' scoped>
 #NavBar {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 100;
+  height: 80px;
+  line-height: 80px;
+  .van-nav-bar{
+        height: 80px;
+        line-height: 80px;
+  }
 }
 </style>

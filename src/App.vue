@@ -62,11 +62,12 @@ export default {
 }
 .child {
   height: 100%;
-  padding-top: 46px;
+  padding-top: 80px;
 }
 .child > div {
   height: 93%;
-  height: calc(100% - 46px);
+  height: calc(100% - 80px);
+  overflow: auto;
 }
 
 .slide-left-enter,

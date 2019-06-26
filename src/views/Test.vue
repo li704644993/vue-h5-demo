@@ -1,6 +1,23 @@
 <template>
   <div class="main">
+    <div>含有父框架的内容1</div>
     <div>含有父框架的内容</div>
+    <div>含有父框架的内容</div>    <div>含有父框架的内容</div>
+    <div>含有父框架的内容</div>    <div>含有父框架的内容</div>
+    <div>含有父框架的内容</div>    <div>含有父框架的内容</div>
+    <div>含有父框架的内容</div>    <div>含有父框架的内容</div>
+    <div>含有父框架的内容</div>    <div>含有父框架的内容</div>
+    <div>含有父框架的内容</div>    <div>含有父框架的内容</div>
+    <div>含有父框架的内容</div>
+        <div>含有父框架的内容</div>
+    <div>含有父框架的内容</div>    <div>含有父框架的内容</div>
+    <div>含有父框架的内容</div>    <div>含有父框架的内容</div>
+    <div>含有父框架的内容</div>    <div>含有父框架的内容</div>
+    <div>含有父框架的内容</div>    <div>含有父框架的内容</div>
+    <div>含有父框架的内容</div>    <div>含有父框架的内容</div>
+    <div>含有父框架的内容</div>    <div>含有父框架的内容</div>
+    <div>含有父框架的内容</div>
+        <div>含有父框架的内容</div>
     <div>含有父框架的内容</div>    <div>含有父框架的内容</div>
     <div>含有父框架的内容</div>    <div>含有父框架的内容</div>
     <div>含有父框架的内容</div>    <div>含有父框架的内容</div>
