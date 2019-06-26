@@ -1,5 +1,5 @@
 <template>
-  <container>
+<div>
     <div class="el-Header">Header</div>
     <div>
       <div class="login">
@@ -12,11 +12,11 @@
             <span>忘记密码?</span>
           </div>
           <br>
-          <van-button type="primary" plain>登录</van-button>
+          <van-button type="primary" @click="goto" plain>登录</van-button>
         </div>
       </div>
     </div>
-  </container>
+</div>
 </template>
 
 <script>
@@ -32,9 +32,9 @@ export default {
     };
   },
   mounted() {
-    this.getRequest(url.hello).then(res => {
-      console.log(res);
-    });
+    // this.getRequest(url.hello).then(res => {
+    //   console.log(res);
+    // });
     axios
       .get("https://dev1auth.soeasypay.cn/rest/mobile/login", {
         applicationCode: "adsense",
@@ -45,11 +45,18 @@ export default {
       .then(res => {
         console.log(res);
       });
-  }
+  },
+  methods:{
+    goto () {
+      //console.log("111");
+      // this.$notify('1111');
+      this.$router.push('test');
+    }
+  },
 };
 </script>
 <style lang="scss" scoped>
-.container {
+.div {
   height: 100%;
 }
 .el-header {

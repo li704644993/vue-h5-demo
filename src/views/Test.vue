@@ -1,15 +1,27 @@
 <template>
-  <h1>含有父框架的内容</h1>
+  <div class="main">
+    <div>含有父框架的内容</div>
+    <div>含有父框架的内容</div>    <div>含有父框架的内容</div>
+    <div>含有父框架的内容</div>    <div>含有父框架的内容</div>
+    <div>含有父框架的内容</div>    <div>含有父框架的内容</div>
+    <div>含有父框架的内容</div>    <div>含有父框架的内容</div>
+    <div>含有父框架的内容</div>    <div>含有父框架的内容</div>
+    <div>含有父框架的内容</div>    <div>含有父框架的内容</div>
+    <div>含有父框架的内容</div>
+  </div>
 </template>
 <script>
-export default {
-  name: "Test",
-  data() {
-    return {};
-  }
-};
+  export default {
+    name: "Test",
+    title:'TEST',
+    data() {
+      return {};
+    }
+  };
+
 </script>
 <style lang="scss" scoped>
+.main{
+  background-color: beige;
+}
 </style>
-
-
